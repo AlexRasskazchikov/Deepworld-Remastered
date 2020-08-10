@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameManager
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: f8228056bad76b941b69dd16c31346d7,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Width
+    value: 93
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Height
+    value: 180
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CavesLevel
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Cell_size
+    value: 0.64
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Dirt_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 1eba4bda5eb2e884fa4d469e01226781, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Stone_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: aa9189c4f6ec0934abc7be64a82af5bf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Cobble_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 556fe30385054574d8fdfb53da937e4b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Grass_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 888c33ce0edd7db4097283f7d3856327, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Ore_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: ac10c6eaab7345c4f930d269332ff46a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Send_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 576b710dc388e404691fcd353f528c4d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Snow_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 1515c4b2024c3a94fb19fe23297ea39c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Danj_BG
+    value: 
+    objectReference: {fileID: 21300000, guid: 2a0dbdcb0cc3d334ebb724b6979c84f9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Tree
+    value: 
+    objectReference: {fileID: 21300000, guid: 5e45d4d0d2f39dd47b053f11ad3837a5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Flower
+    value: 
+    objectReference: {fileID: 21300000, guid: e1cf3edcd469efc47bf48a9fb99378cd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Cactus
+    value: 
+    objectReference: {fileID: 21300000, guid: baa0462d69405044ebc7ef0a24fa6c8c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Grass
+    value: 
+    objectReference: {fileID: 21300000, guid: aa039098a1780c844ba8da980e5a0a30, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Stone
+    value: 
+    objectReference: {fileID: 21300000, guid: e1d6e33cdf3506446a9a2a87d6b73a9e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Bedrock
+    value: 
+    objectReference: {fileID: 21300000, guid: 20bca5c17f4b3864d971152935f083a2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Send
+    value: 
+    objectReference: {fileID: 21300000, guid: 6cb5ae48bbb061b4099467c80586b843, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Snow
+    value: 
+    objectReference: {fileID: 21300000, guid: 6f19d1268d321a848bfbfeecd5f88284, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Danj_Block
+    value: 
+    objectReference: {fileID: 21300000, guid: 59d3e648639c72944b6c53d0672be15e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Ore
+    value: 
+    objectReference: {fileID: 21300000, guid: 924404ea215fba0419acebe1007b593a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Torch
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dirts.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dirts.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: 8de1f8bb7e131bd41aa153327385c33a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: dirts.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: ea8fe958e764f7a4785473ba3eca762a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: dirts.Array.data[2]
+    value: 
+    objectReference: {fileID: 21300000, guid: 87bcf2c84a805e542974e2db94103fec, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cobbles.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cobbles.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: efe1fb25f0ee0b248b92b31f93512c39, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cobbles.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: 235677ed227867e4497b497376012256, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cobbles.Array.data[2]
+    value: 
+    objectReference: {fileID: 21300000, guid: 061e679a5a088404b8d552d9be5c29ea, type: 3}
+  - target: {fileID: 0}
+    propertyPath: cobbles.Array.data[3]
+    value: 
+    objectReference: {fileID: 21300000, guid: a9adcfa58b4772c4aa3488d580d2ee2c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: crystals.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crystals.Array.data[0]
+    value: 
+    objectReference: {fileID: 5219558203617743346, guid: 297fb3c3cf1d26d48a3351280d16b9db,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: crystals.Array.data[1]
+    value: 
+    objectReference: {fileID: 5632443521398584133, guid: 536d1862a0249f6459085ede77a206da,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: crystals.Array.data[2]
+    value: 
+    objectReference: {fileID: 6842835560171847881, guid: fcc1dce46588f014eb3f7e8dcdc60ba5,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: flora.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: flora.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: 5e45d4d0d2f39dd47b053f11ad3837a5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: flora.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: e1cf3edcd469efc47bf48a9fb99378cd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: type
+    value: Standart
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: flat
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: count_mobs
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: script_mobs
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ExperimentalMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: seed
+    value: 23423424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useRandomSeed
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BG_Manager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomFillPercent
+    value: 50
+    objectReference: {fileID: 0}

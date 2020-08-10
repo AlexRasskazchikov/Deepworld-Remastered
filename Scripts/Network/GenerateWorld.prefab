@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7814285171243871668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7814285171243871674}
+  - component: {fileID: 7814285171243871675}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7814285171243871674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285171243871668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5804944, y: 4.4722753, z: -1.0462303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7814285172024706908}
+  - {fileID: 7814285171605298640}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7814285171243871675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285171243871668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8228056bad76b941b69dd16c31346d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 30
+  Height: 30
+  CavesLevel: 30
+  Cell_size: 0.64
+  script_mobs: {fileID: 7814285171605298642}
+  blocks: {fileID: 7814285172024706915}
+  RandomFillPercent: 50
+--- !u!1 &7814285171605298643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7814285171605298640}
+  - component: {fileID: 7814285171605298642}
+  m_Layer: 0
+  m_Name: MobManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7814285171605298640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285171605298643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7814285171243871674}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7814285171605298642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285171605298643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57637fac2571c2d44a3b3b1fa1395ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SnowMan: {fileID: 21300000, guid: 5fa6c4f6db281274e962735908177c53, type: 3}
+  PackMan: {fileID: 0}
+  PerekatyPole: {fileID: 0}
+  manager: {fileID: 7814285171243871675}
+--- !u!1 &7814285172024706911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7814285172024706908}
+  - component: {fileID: 7814285172024706915}
+  m_Layer: 0
+  m_Name: BlockManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7814285172024706908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285172024706911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7814285171243871674}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7814285172024706915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814285172024706911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075e4a9e41ebee541ab5fefb12d32ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cell_Size: 0.64
+  Dirt_BG: {fileID: 21300000, guid: 1eba4bda5eb2e884fa4d469e01226781, type: 3}
+  Stone_BG: {fileID: 21300000, guid: aa9189c4f6ec0934abc7be64a82af5bf, type: 3}
+  Cobble_BG: {fileID: 21300000, guid: 556fe30385054574d8fdfb53da937e4b, type: 3}
+  Grass_BG: {fileID: 21300000, guid: 888c33ce0edd7db4097283f7d3856327, type: 3}
+  Ore_BG: {fileID: 21300000, guid: aa9189c4f6ec0934abc7be64a82af5bf, type: 3}
+  Send_BG: {fileID: 21300000, guid: 576b710dc388e404691fcd353f528c4d, type: 3}
+  Snow_BG: {fileID: 21300000, guid: 52c3a43ef5a84af43b084f52f2c883e5, type: 3}
+  Danj_BG: {fileID: 0}
+  Grass: {fileID: 21300000, guid: aa039098a1780c844ba8da980e5a0a30, type: 3}
+  Stone: {fileID: 21300000, guid: e1d6e33cdf3506446a9a2a87d6b73a9e, type: 3}
+  Bedrock: {fileID: 21300000, guid: 20bca5c17f4b3864d971152935f083a2, type: 3}
+  Send: {fileID: 21300000, guid: 6cb5ae48bbb061b4099467c80586b843, type: 3}
+  Snow: {fileID: 21300000, guid: 6f19d1268d321a848bfbfeecd5f88284, type: 3}
+  Danj_Block: {fileID: 21300000, guid: 924404ea215fba0419acebe1007b593a, type: 3}
+  Ore: {fileID: 21300000, guid: db59b796d23d2f2478ff2cbb77816e59, type: 3}
+  oak_tree: {fileID: 21300000, guid: e104a9c53ec6ee64b892bd89b3ce2004, type: 3}
+  oak_background: {fileID: 21300000, guid: edea38e8699788d46ae62e02ff900567, type: 3}
+  leaf_oak: {fileID: 21300000, guid: 8bc51bcb39e1bb747a64ea2f1269b1aa, type: 3}
+  clear_leaf: {fileID: 0}
+  fir_tree: {fileID: 21300000, guid: 581cd65a1777af74faacceb92bfe92d5, type: 3}
+  fir_background: {fileID: 21300000, guid: 4b9c36176c3cdaa44899de41290452d1, type: 3}
+  leaf_fir: {fileID: 21300000, guid: e271f6a8dc81109438473769e27ab4d0, type: 3}
+  PrefabDirtBG: {fileID: 0}
+  PrefabStone_BG: {fileID: 0}
+  PrefabCobble_BG: {fileID: 0}
+  PrefabGrass_BG: {fileID: 0}
+  PrefabOre_BG: {fileID: 0}
+  PrefabSend_BG: {fileID: 0}
+  PrefabSnow_BG: {fileID: 0}
+  PrefabDanj_BG: {fileID: 0}
+  PrefabGrass: {fileID: 0}
+  PrefabStone: {fileID: 0}
+  PrefabBedrock: {fileID: 0}
+  PrefabSend: {fileID: 0}
+  PrefabSnow: {fileID: 0}
+  PrefabDanj_Block: {fileID: 0}
+  PrefabOre: {fileID: 0}
+  Tree: {fileID: 21300000, guid: 5e45d4d0d2f39dd47b053f11ad3837a5, type: 3}
+  Flower: {fileID: 21300000, guid: e1cf3edcd469efc47bf48a9fb99378cd, type: 3}
+  Cactus: {fileID: 21300000, guid: baa0462d69405044ebc7ef0a24fa6c8c, type: 3}
+  dirts:
+  - {fileID: 21300000, guid: 8de1f8bb7e131bd41aa153327385c33a, type: 3}
+  - {fileID: 21300000, guid: ea8fe958e764f7a4785473ba3eca762a, type: 3}
+  - {fileID: 21300000, guid: 87bcf2c84a805e542974e2db94103fec, type: 3}
+  cobbles:
+  - {fileID: 21300000, guid: efe1fb25f0ee0b248b92b31f93512c39, type: 3}
+  - {fileID: 21300000, guid: 235677ed227867e4497b497376012256, type: 3}
+  - {fileID: 21300000, guid: a9adcfa58b4772c4aa3488d580d2ee2c, type: 3}
+  - {fileID: 21300000, guid: 061e679a5a088404b8d552d9be5c29ea, type: 3}
+  crystals:
+  - {fileID: 5632443521398584133, guid: 536d1862a0249f6459085ede77a206da, type: 3}
+  - {fileID: 5219558203617743346, guid: 297fb3c3cf1d26d48a3351280d16b9db, type: 3}
+  stones:
+  - {fileID: 21300000, guid: e1d6e33cdf3506446a9a2a87d6b73a9e, type: 3}
+  Destroy_Manager: {fileID: 0}
+  trees:
+  - Oak
+  - Fir
+  Cell_size: 0.64
